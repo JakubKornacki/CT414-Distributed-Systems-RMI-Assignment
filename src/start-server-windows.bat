@@ -1,0 +1,1 @@
+java -cp c:\Users\Jakub\IdeaProjects\CT414Assignment1\src -Djava.rmi.server.codebase=file:/C:/Users/Jakub/IdeaProjects/CT414Assignment1/src/ -Djava.security.policy=server-windows.policy ShareServerImplementation

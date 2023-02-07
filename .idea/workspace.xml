@@ -4,23 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c17e8836-e870-4c60-9833-18559acc321f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CT414Assignment1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AuthenticationFailed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InsufficientFundsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NegativeNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Share.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShareHolding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShareHoldingImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShareImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShareServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShareServerImplementation.java" afterDir="false" />
+    <list default="true" id="c17e8836-e870-4c60-9833-18559acc321f" name="Changes" comment="added remaining functionality">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AuthenticationFailed.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InsufficientFundsException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NegativeNumberException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NoSharesException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NotEnoughSharesAvailable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NotEnoughSharesAvailable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Share.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShareDoesNotExistException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShareDoesNotExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShareHolding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShareHoldingImplementation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShareImplementation$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShareImplementation$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShareImplementation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShareServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShareServerImplementation$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ShareServerImplementation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Shares.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server-windows.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/start-client-windows.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/start-registry-windows.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/start-server-windows.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Share.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Share.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShareHolding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShareHolding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShareHoldingImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShareHoldingImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShareImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShareImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShareServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShareServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShareServerImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShareServerImplementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,17 +64,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jakub/IdeaProjects/CT414Assignment1&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Jakub/IdeaProjects/CT414Assignment1",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -72,7 +90,31 @@
       <option name="presentableId" value="Default" />
       <updated>1675625910327</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1675723921338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675723921338</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="added remaining functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="added remaining functionality" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

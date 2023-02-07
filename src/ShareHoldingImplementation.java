@@ -1,4 +1,6 @@
-public class ShareHoldingImplementation implements ShareHolding {
+import java.io.Serializable;
+
+public class ShareHoldingImplementation implements ShareHolding, Serializable {
     private String shareHoldingName;
     private int numberOfOwnedShareHoldings;
     private float shareHoldingPrice;
@@ -6,7 +8,7 @@ public class ShareHoldingImplementation implements ShareHolding {
     public ShareHoldingImplementation(String shareHoldingName, int numberOfOwnedShareHoldings, float shareHoldingPrice){
         this.shareHoldingName = shareHoldingName;
         this.numberOfOwnedShareHoldings = numberOfOwnedShareHoldings;
-        this.shareHoldingName = shareHoldingName;
+        this.shareHoldingPrice = shareHoldingPrice;
     }
     @Override
     public String getShareHoldingName() {

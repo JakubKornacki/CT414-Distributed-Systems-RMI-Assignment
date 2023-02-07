@@ -1,0 +1,1 @@
+rmiregistry -J-Djava.rmi.server.codebase=file:/C:/Users/Jakub/IdeaProjects/CT414Assignment1/src
